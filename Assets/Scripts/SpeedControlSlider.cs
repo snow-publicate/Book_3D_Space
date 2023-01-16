@@ -4,7 +4,7 @@ using UnityEngine.UI; //UI관련 기능 접근을 위한 네임스페이스 선�
 public class SpeedControlSlider : MonoBehaviour
 {
     public Slider slider; //slider변수를 public으로 선언하여 유니티 에디터에서의 접근 허용
-    public GameObject earth; //지구를 유니티 에디터에서 타겟으로 삼기 위한 변수 선언
+    public GameObject earth; //지구를 유니티 에디터에서 담기 위한 변수 선언
 
     public void Start()
     {
