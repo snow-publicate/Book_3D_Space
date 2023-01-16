@@ -809,6 +809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 838357918}
+  target_Earth: {fileID: 1164577718}
 --- !u!1 &842553471
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,6 +866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 792080922}
+  target_Earth: {fileID: 1164577718}
 --- !u!1001 &1021264861
 PrefabInstance:
   m_ObjectHideFlags: 0
