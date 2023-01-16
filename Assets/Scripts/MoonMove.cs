@@ -16,7 +16,7 @@ public class MoonMove : MonoBehaviour
     private void Update() 
     {
         //지구의 속도를 변수에 할당 및 달에 맞게 변환
-        earthTime = GameObject.Find("Earth").GetComponent<EarthMove>().time; 
+        earthTime = GameObject.Find("Earth").GetComponent<EarthMove>().speed; 
 
         //본 스크립트가 부착된 객체를 반시계방향으로 자전 
         transform.Rotate(Vector3.down * Time.deltaTime * earthTime / 27f);
